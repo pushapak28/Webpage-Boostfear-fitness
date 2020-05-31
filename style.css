@@ -1,0 +1,126 @@
+body {
+    font-family: 'Vollkorn', sans-serif;
+    position: relative;
+}
+
+#bgvideo {
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+#home {
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+#home h1 {
+    margin-bottom: 20px;
+}
+
+#home h2 {
+    margin-bottom: 30px;
+}
+
+#home .btn {
+    border-radius: 8px;
+    font-size: 18px;
+    width: 200px;
+    padding: 8px 20px;
+}
+
+#home .btn:hover {
+    background-color: rgba(29, 167, 179, 0.8);
+}
+
+.container {
+    max-width: 1000px;
+}
+
+#about {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+#avout h2 {
+    font-weight: bold;
+}
+
+#avout p {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.avoutImage {
+    height: 120px;
+}
+
+
+
+/*-Move the carousel caption under the pictures */
+#promise {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+#demo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel-inner .carousel-item img {
+    height: 500px;
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+
+
+/*Style the pictures and nav-brand for different screens*/
+@media (max-width:768px) {
+    .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-inner h2 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width:400px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+    }
+
+    .carousel-inner h2 {
+        font-size: 17px;
+    }
+
+    .navbar-brand {
+        font-size: 12px;
+    }
+}
+
+.jumbotron {
+    background: black;
+    color: brown;
+}
+
+pre {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: aquamarine;
+    margin-bottom: 5px;
+}
